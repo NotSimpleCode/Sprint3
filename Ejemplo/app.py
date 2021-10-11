@@ -11,7 +11,7 @@ def register():
     return render_template("login.html")
 
 #hola acabo de editar
-
+#vamos a editar otra vez pero desde visual
 @app.route("/login", methods=["GET","POST"])
 def login():
     return render_template("register.html")
