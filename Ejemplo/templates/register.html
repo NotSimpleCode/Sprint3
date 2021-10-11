@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="form-register">
+    <form action="/register" method="POST">
+        <div>
+            <img class="img">
+        </div>
+        <div class="sesion" style="text-align: center;">
+            <h2 style="font-size: 25px;">Formulario de registro</h2>
+        </div>
+        <div>
+            {% block bo2 %} {% endblock %}
+        </div>
+        <div class="input-text">
+            <ul><input class="textfield" type="email" name="email" placeholder="Ingresa tu correo"></ul>
+            <ul><input class="textfield" type="text" name="name" placeholder="Ingresa tu nombre"></ul>
+            <ul><input class="textfield" type="text" name="username" placeholder="Ingresa tu usuario"></ul>
+            <ul><input class="textfield" type="password" name="pass1" placeholder="Ingresa tu contraseña"></ul>
+            <ul><input class="textfield" type="password" name="pass2" placeholder="Confirma contraseña"></ul>
+            <ul><input class="calendar" type="date" name="date"></ul>
+            <ul><input class="radio" type="radio" name="gen" value="female">Femenino<input class="radio2" type="radio" name="gen2" value="male">Masculino</ul>
+            <ul><input class="boton" type="submit" value="Registrate"></ul>
+        
+        </div>
+        <div>
+            <img class="img">
+        </div>
+    </form>
+</div>
+{% endblock %}
