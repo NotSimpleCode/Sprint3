@@ -10,6 +10,7 @@
     background-size: 100% 100%;
     background-attachment: fixed;
 }
+
 .form-login{
     border: 30px;
     margin-top: 70px;
@@ -32,7 +33,101 @@
     width: 500px;
     height: 20px;
 }
+.imgDocente{
+    border-radius: 200px;
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 260px;
+    height: 260px;
+    background: #f3f3f3;
+    background-image: url("docente.jpg");
+    background-size: 100% 100%;
+    background-attachment:local;
+}
+.form-img{
+    margin-left: -299px;
+    margin-top: -528px;
+    width: 300px;
+    height: 523px;
+    background-size: 100% 100%;
+    background-image: url("fuego.jpg");
+}
+.form-student{
+    border: 30px;
+    margin-top: 70px;
+    background:#f3f3f3;
+    margin-left: 470px;
+    width: 500px;
+    height: 523px;
+    background-image:url("fondo2.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.form-teacher{
+    border: 30px;
+    margin-top: 70px;
+    background:#f3f3f3;
+    margin-left: 470px;
+    width: 500px;
+    height: 523px;
+    background-image:url("fondo2.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.imgEstudiante{
+    border-radius: 200px;
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 280px;
+    height: 280px;
+    background: #f3f3f3;
+    background-image: url("estudiante.jpg");
+    background-size: 100% 100%;
+    background-attachment: scroll;
+}
+
+.nameST{
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-style:oblique;
+    font-size: medium;
+    background-color: aquamarine;
+}
+.titleST{
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-style:oblique;
+    font-size: medium;
+    background-color: aquamarine;
+}
+.boton2{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 22px;
+    border-radius: 30px;
+    font-style:normal;
+    font-size:larger;
+    background-color: aquamarine;
+}
+.botonST{
+    width: 150px;
+    margin-top: 0.1px;
+    margin-left: 22px;
+    border-radius: 30px;
+    font-style:normal;
+    font-size:medium;
+    background-color: aquamarine;
+}
+
 .textfield{
+    margin-left: 120px;
+    width: 200px;
+    height: 28px;
+    border-radius: 15px;
+}
+.textfieldS{
     margin-left: 120px;
     width: 200px;
     height: 28px;

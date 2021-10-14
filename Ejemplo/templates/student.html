@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<section>
+    <div class="form-student">
+        <div>
+            <form action="/student",method="POST">
+                <div>
+                    <img class="img">
+                </div>
+                <div class="sesion" style="text-align: center;">
+                    <h2 style="font-size: 25px;">Informacion del estudiante</h2>
+                </div>
+                <div>
+                    {% block bo2 %} {% endblock %}
+                </div>
+                <div class="input-text">
+                    <ul><h6 style="font-size: 16px;">Nombres:<input class="textfieldS" type="text"></h6></ul>
+                    <ul><h6 style="font-size: 16px;">Apellidos:<input class="textfieldS" type="text"></h6></ul>
+                    <ul><h6 style="font-size: 16px;">Genero:<input class="textfieldS" type="text"></h6></ul>
+                    <ul><h6 style="font-size: 14px;">Materias inscritas:<input class="textfieldS" type="text" style="width: 180px;"></h6></ul>
+                    <ul><h6 style="font-size: 16px;">Carrera Cursando:<input class="textfieldS" type="text" style="width: 180px;"></h6></ul>
+                    <ul><input class="botonST" type="submit" value="Ver Actividad"></ul>
+                </div>
+                <div>
+                    <img class="img">
+                </div>
+            </form>
+        </div>
+        <div class="form-img">
+            <form action="/salir" method="POST">
+                <div>
+                    <div>
+                        <img class="imgEstudiante">
+                    </div>
+                    <div>
+                        <ul><input class="nameST" type="text" value="PACHO CHACON"></ul>
+                        <ul><input class="titleST" type="text" value="ESTUDIANTE DE ARTES"></ul>
+                        <ul><input class="boton2" type="submit" value="Salir"></ul>
+                    </div>
+                </div>   
+            </form>
+        </div>
+    </div>
+        
+</section>
+
+
+{% endblock %}

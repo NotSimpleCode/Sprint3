@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<section>
+    <div class="form-teacher">
+        <div>
+            <form action="/teacher",method="POST">
+                <div>
+                    <img class="img">
+                </div>
+                <div class="sesion" style="text-align: center;">
+                    <h2 style="font-size: 25px;">Informacion del docente</h2>
+                </div>
+                <div>
+                    {% block bo2 %} {% endblock %}
+                </div>
+                <div class="input-text">
+                    <ul><h6 style="font-size: 16px;">Nombres:<input class="textfieldS" type="text"></h6></ul>
+                    <ul><h6 style="font-size: 16px;">Apellidos:<input class="textfieldS" type="text"></h6></ul>
+                    <ul><h6 style="font-size: 16px;">Genero:<input class="textfieldS" type="text"></h6></ul>
+                    <ul><h6 style="font-size: 14px;">Materias encargadas:<input class="textfieldS" type="text" style="width: 180px;"></h6></ul>
+                    <ul><h6 style="font-size: 16px;">Titulo profesional:<input class="textfieldS" type="text" style="width: 180px;"></h6></ul>
+                    <ul><input class="botonST" type="submit" value="Poner Actividad"></ul>
+                </div>
+                <div>
+                    <img class="img">
+                </div>
+            </form>
+        </div>
+        <div class="form-img">
+            <form action="/salir" method="POST">
+                <div>
+                    <div>
+                        <img class="imgDocente">
+                    </div>
+                    <div>
+                        <ul><input class="nameST" type="text" value="NESTOR TORRES"></ul>
+                        <ul><input class="titleST" type="text" value="DOCENTE DE ARTES"></ul>
+                        <ul><input class="boton2" type="submit" value="Salir"></ul>
+                    </div>
+                </div>   
+            </form>
+        </div>
+    </div>
+        
+</section>
+{% endblock %}
